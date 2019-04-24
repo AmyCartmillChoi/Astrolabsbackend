@@ -1,9 +1,14 @@
+
+// Server file starts it all. 
+
 const express = require('express');
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
+const mongoose = require('mongoose'); // database connection
+const cors = require('cors') // Cross Origin - Send data across differnt domains
+
+const bodyParser = require('body-parser'); // Send a receive data
 const users = require('./routes/users');
-const cors = require('cors')
-const passport = require('passport');
+const passport = require('passport'); // Store the password in a secure way.
+
 const app = express();
 
 // Body parser middleware

@@ -11,7 +11,7 @@ const jwt = require('jsonwebtoken');
 router.get('/test', (req,res) =>
  res.json({msg:"this is a test"}));
 
- router.post('/register', (req, res) => {
+ router.post('/signup', (req, res) => {
  
     User.findOne({ email: req.body.email }).then(user => {
     if (user) {
