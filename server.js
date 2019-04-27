@@ -51,27 +51,27 @@ app.get('/dashboard', passport.authenticate('jwt', {session:false}),(req,res) =>
         "name": "Kempinski Palm",
         "type": "Spa Day",
         "price": "800 AED"
-      }
+      },
       {
-        "name": "Sofitel Beach,
+        "name": "Sofitel Beach",
         "type": "Pool & Beach",
         "price": "880 AED"
-      }
+      },
       {
         "name": "Hilton JBR",
         "type": "Spa Day",
         "price": "500 AED"
-      }
+      },
       {
         "name": "Fairmont Palm",
         "type": "Golf Day",
         "price": "1500 AED"
-      }
+      },
       {
         "name": "Atlantis Palm",
         "type": "Pool & Beach",
         "price": "950 AED"
-      }
+      },
     ]
   })
 })
