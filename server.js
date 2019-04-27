@@ -39,8 +39,8 @@ app.get('/dashboard', passport.authenticate('jwt', {session:false}),(req,res) =>
     data: [
       {
         "name": "Mina Beach Club",
-        "type": "Pool & Beach",
-        "price": "250 AED"
+        "profession": "Pool & Beach",
+        "location": "250 AED"
       },
       {
         "name": "Nations Beach Club",
