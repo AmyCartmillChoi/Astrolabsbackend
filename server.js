@@ -39,8 +39,8 @@ app.get('/dashboard', passport.authenticate('jwt', {session:false}),(req,res) =>
     data: [
       {
         "name": "Mina Beach Club",
-        "profession": "Pool & Beach",
-        "location": "250 AED"
+        "type": "Pool & Beach",
+        "price": "250 AED"
       },
       {
         "name": "Nations Beach Club",
@@ -51,6 +51,26 @@ app.get('/dashboard', passport.authenticate('jwt', {session:false}),(req,res) =>
         "name": "Kempinski Palm",
         "type": "Spa Day",
         "price": "800 AED"
+      }
+      {
+        "name": "Sofitel Beach,
+        "type": "Pool & Beach",
+        "price": "880 AED"
+      }
+      {
+        "name": "Hilton JBR",
+        "type": "Spa Day",
+        "price": "500 AED"
+      }
+      {
+        "name": "Fairmont Palm",
+        "type": "Golf Day",
+        "price": "1500 AED"
+      }
+      {
+        "name": "Atlantis Palm",
+        "type": "Pool & Beach",
+        "price": "950 AED"
       }
     ]
   })
