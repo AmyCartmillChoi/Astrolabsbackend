@@ -38,19 +38,19 @@ app.get('/dashboard', passport.authenticate('jwt', {session:false}),(req,res) =>
   return res.json({
     data: [
       {
-        "name": "Top Secret Agent 1",
-        "profession": "CIA Operative",
-        "location": "Lebanon"
+        "name": "Mina Beach Club",
+        "type": "Pool & Beach",
+        "price": "250 AED"
       },
       {
-        "name": "Tom Cruise",
-        "profession": "Black Ops",
-        "location": "Lisbon"
+        "name": "Nations Beach Club",
+        "type": "Golf Day",
+        "price": "500 AED"
       },
       {
-        "name": "James Bond 007",
-        "profession": "MI6 Agent",
-        "location": "London"
+        "name": "Kempinski Palm",
+        "type": "Spa Day",
+        "price": "800 AED"
       }
     ]
   })
